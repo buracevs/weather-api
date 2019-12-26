@@ -10,3 +10,7 @@
 
 # Output of the go coverage tool, specifically when used with LiteIDE
 *.out
+
+# Ignore folder for swagger generated files
+# they are auto generated before build with swag init
+/cmd/weather/docs
